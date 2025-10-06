@@ -1,0 +1,352 @@
+[
+  {
+    "title": "School of Hospitality",
+    "description": "Build Your World Prof. (Dr.) Manish Shrivastava Designation - Dean Department – School of Hospitality Qualification – DHMCT, B.A, M.A, MBA (HR), MBA (Hospitality), Ph.D. Work Experience: Hospitality.",
+    "image": "assets/images/hospitality.jpg",
+    "courses": [
+      {
+        "course": "B.Sc. Hospitality and Hotel Management (HHM)",
+        "semesters": 6,
+        "type": "core"
+      }
+    ],
+    "icon": "assets/images/hospitality2.png",
+    "key": "hospitality"
+  },
+  {
+    "title": "Jaipur School of Economics",
+    "description": "Build Your World Prof. (Dr.) N.D. Mathur Designation – Dean and Professor Department – Jaipur School of Economics Qualification Ph.D. “Price Policy in Public Enterprises”.",
+    "image": "assets/images/economics.jpg",
+    "courses": [
+      {
+        "course": "B.A. (Hons.) Economics 4 Year",
+        "semesters": 8,
+        "type": "core"
+      },
+      {
+        "course": "B.A. Economics 3 Year",
+        "semesters": 6,
+        "type": "core"
+      },
+      {
+        "course": "B.A. Liberal Education",
+        "semesters": 6,
+        "type": "core"
+      }
+    ],
+    "icon": "assets/images/economic2.png",
+    "key": "economics"
+  },
+  {
+    "title": "School of Allied Health Sciences",
+    "description": "Build Your World Dr.Vishal Jain Designation- Dean Department- School of Allied Health Sciences Qualification BPT (SVNIRTAR Govt. of India Institute) MPT (SBSPGI).",
+    "image": "assets/images/allied_health.jpg",
+    "courses": [
+      {
+        "course": "Bachelor of Physiotherapy (BPT)",
+        "semesters": 6,
+        "type": "core"
+      },
+      {
+        "course": "Bachelor of Radiation Technology (BRT)",
+        "semesters": 6,
+        "type": "core"
+      },
+      {
+        "course": "Bachelor of Medical Technology (BMLT)",
+        "semesters": 6,
+        "type": "core"
+      }
+    ],
+    "icon": "assets/images/test-tube.png",
+    "key": "allied_health"
+  },
+  {
+    "title": "Jaipur School of Design",
+    "description": "Ms. Shivani Kaushik Designation- Dean Department- School of Design Qualification: 25 years of teaching experience and serve as a Board of Study Member and Examiner.",
+    "image": "assets/images/design.png",
+    "courses": [
+      {
+        "course": "Bachelor of Design (B.Des.)",
+        "semesters": 6,
+        "type": "core"
+      },
+      {
+        "course": "Bachelor of Design Fashion Design",
+        "semesters": 6,
+        "type": "core"
+      },
+      {
+        "course": "Bachelor of Design Interior Design",
+        "semesters": 6,
+        "type": "core"
+      },
+      {
+        "course": "Bachelor of Design Jewellery Design and Manufacturing",
+        "semesters": 6,
+        "type": "core"
+      },
+      {
+        "course": "Bachelor of Visual Arts (BVA)",
+        "semesters": 6
+      },
+      {
+        "course": "Bachelor of Visual Arts Graphic Design",
+        "semesters": 6
+      },
+      {
+        "course": "Bachelor of Visual Arts Painting",
+        "semesters": 6
+      }
+    ],
+    "icon": "assets/images/web-design.png",
+    "key": "design"
+  },
+  {
+    "title": "Jaipur School of Mass Communication",
+    "description": "Build Your World Prof (Dr.) Narendra Kaushik Dean, Jaipur School of Mass Communication Designation- Dean Department- Jaipur School of Mass Communication Qualification PG Diploma.",
+    "image": "assets/images/mass_communication.jpg",
+    "courses": [
+      {
+        "course": "BA.- Journalism and Mass communication",
+        "semesters": 6
+      }
+    ],
+    "icon": "assets/images/communication.png",
+    "key": "mass_communication"
+  },
+  {
+    "title": "School of Law",
+    "description": "Prof. (Dr.) Mahesh Koolwal Designation-Dean Department- School of Law Qualification Ph.D, LLM, MA.",
+    "image": "assets/images/law.png",
+    "courses": [
+      {
+        "course": "B.A.LL.B.(Hons.)",
+        "semesters": 6
+      },
+      {
+        "course": "BBA. LL.B.(Hons.)",
+        "semesters": 6
+      },
+      {
+        "course": "B.Sc. LL.B (Hons.)",
+        "semesters": 6
+      }
+    ],
+    "icon": "assets/images/auction.png",
+    "key": "law"
+  },
+  {
+    "title": "School of Humanities & Social Sciences",
+    "description": "Build Your World Prof. (Dr.) N.D. Mathur Designation- Dean and Professor Department- School of Humanities & Social Sciences Qualification Ph.D. “Price Policy in Public Enterprises”.",
+    "image": "assets/images/humanities.jpg",
+    "courses": [
+      {
+        "course": "B.A. Liberal Studies with Major (Entrepreneurship & Family Business)",
+        "semesters": 6
+      },
+      {
+        "course": "B.A. Liberal Studies with Major (Public Policy & Governance)",
+        "semesters": 6
+      },
+      {
+        "course": "B.A. Liberal Studies with Major (International Relations & Diplomacy)",
+        "semesters": 6
+      },
+      {
+        "course": "B.A. Liberal Studies with Major (Linguistics)",
+        "semesters": 6
+      },
+      {
+        "course": "B.A. (Hons.) Political Science 4 Year",
+        "semesters": 8
+      },
+      {
+        "course": "B.A. (Hons.) Psychology 4 Year",
+        "semesters": 8
+      },
+      {
+        "course": "B.A. (Hons.) English 4 Year",
+        "semesters": 8
+      }
+    ],
+    "icon": "assets/images/humanity.png",
+    "key": "humanities"
+  },
+  {
+    "title": "School of Sciences",
+    "description": "Build Your World Prof. (Dr.) Widhi Dubey Designation-Dean Department- School of Sciences Qualification M.Sc. (Botany), Ph.D, F.B.S., F.S.A.B. Experience: 60 Years (Teaching & Research).",
+    "image": "assets/images/sciences.jpg",
+    "courses": [
+      {
+        "course": "B.Sc. (Hons.) Forensic Science",
+        "semesters": 6
+      },
+      {
+        "course": "B.Sc. (Hons.) Biotechnology | Microbiology",
+        "semesters": 6
+      }
+    ],
+    "icon": "assets/images/atom.png",
+    "key": "sciences"
+  },
+  {
+    "title": "Jaipur School of Business",
+    "description": "Build Your World Prof. (Dr.) Renu Pareek Designation- Dean Department- Jaipur School of Business Qualification- Ph.D, MBA, PGDMM Research Area Marketing Management, Brand Management.",
+    "image": "assets/images/business.jpg",
+    "courses": [
+      {
+        "course": "Bachelors of Business Administration (BBA)",
+        "semesters": 8
+      },
+      {
+        "course": "BBA in Finance Management",
+        "semesters": 8
+      },
+      {
+        "course": "BBA in HR Management",
+        "semesters": 8
+      },
+      {
+        "course": "BBA in Marketing Management",
+        "semesters": 8
+      },
+      {
+        "course": "BBA in Information Technology Management",
+        "semesters": 8
+      },
+      {
+        "course": "BBA in International Business Management",
+        "semesters": 8
+      },
+      {
+        "course": "BBA in Banking Financial Service and Insurance",
+        "semesters": 8
+      },
+      {
+        "course": "Bachelors of Commerce (B.Com)",
+        "semesters": 8
+      },
+      {
+        "course": "B.Com. in Accounting & Finance",
+        "semesters": 8
+      },
+      {
+        "course": "B.Com. in Banking financial services & Insurance",
+        "semesters": 8
+      },
+      {
+        "course": "B.Com. in Marketing",
+        "semesters": 8
+      },
+      {
+        "course": "B.Com. in International Business",
+        "semesters": 8
+      },
+      {
+        "course": "B.Com. in Information Technology",
+        "semesters": 8
+      }
+    ],
+    "icon": "assets/images/briefcase.png",
+    "key": "business"
+  },
+  {
+    "title": "School of Computer Applications",
+    "description": "Build Your World Prof. (Dr.) Deepak Dembla Designation- Dean Department- School of Computer Applications Qualification – (Ph.D. – CSE), M.Tech., MCA, PGDBM.) Experiences in IT.",
+    "image": "assets/images/computer_applications.jpg",
+    "courses": [
+      {
+        "course": "BCA (3 Yrs.)",
+        "semesters": 6
+      },
+      {
+        "course": "BCA (3 Yrs.) (Specialization in Full Stack Web Design & Development)",
+        "semesters": 6
+      },
+      {
+        "course": "BCA (3 Yrs.) (Specialization in Cloud Computing & Full Stack Development)",
+        "semesters": 6
+      },
+      {
+        "course": "BCA (3 Yrs.) (Specialization in AI & Machine Learning)",
+        "semesters": 6
+      },
+      {
+        "course": "BCA (3 Yrs.) (Specialization in Cloud Computing)",
+        "semesters": 6
+      },
+      {
+        "course": "BCA (3 Yrs.) (Specialization in Cyber Security)",
+        "semesters": 6
+      },
+      {
+        "course": "BCA (3 Yrs.) (Specialization in Data Science and Data Analytics)",
+        "semesters": 6
+      },
+      {
+        "course": "BCA (3 Yrs.) (Blockchain Technology)",
+        "semesters": 6
+      }
+    ],
+    "icon": "assets/images/website.png",
+    "key": "computer_applications"
+  },
+  {
+    "title": "School of Engineering & Technology",
+    "description": "Build Your World Prof. (Dr.) Naveen Hemrajani Designation- Dean...",
+    "image": "assets/images/engineering.jpg",
+    "courses": [
+      {
+        "course": "B.Tech. (Computer Science & Engineering)",
+        "semesters": 8
+      },
+      {
+        "course": "B.Tech. (CSE) with Specialization in Cloud Computing (Microsoft)",
+        "semesters": 8
+      },
+      {
+        "course": "B.Tech. Computer Science and Business Systems (CSBS)",
+        "semesters": 8
+      },
+      {
+        "course": "B.Tech. (CSE) with Specialization in full stack Web Design & Development",
+        "semesters": 8
+      },
+      {
+        "course": "B.Tech. (CSE) with Specialization in Artificial Intelligence and Machine learning(with IBM)",
+        "semesters": 8
+      },
+      {
+        "course": "B.Tech. (CSE) with Specialization in Artificial Intelligence and Machine learning(with XEBIA)",
+        "semesters": 8
+      },
+      {
+        "course": "B.Tech. (CSE) with Specialization in Artificial Intelligence and Machine learning(with Samatrix.io)",
+        "semesters": 8
+      },
+      {
+        "course": "B.Tech. (CSE) with Specialization in Data Science and Data Analytics",
+        "semesters": 8
+      },
+      {
+        "course": "B.Tech. (CSE) with Specialization in Cyber Security",
+        "semesters": 8
+      },
+      {
+        "course": "B.Tech. (CSE) Cloud Computing (An AWS Verified Program)",
+        "semesters": 8
+      },
+      {
+        "course": "B.Tech. (CSE) Blockchain (upGrad Campus)",
+        "semesters": 8
+      },
+      {
+        "course": "B.Tech. (CSE) Generative AI (L&T EduTech)",
+        "semesters": 8
+      }
+    ],
+    "icon": "assets/images/engg.png",
+    "key": "engineering"
+  }
+]

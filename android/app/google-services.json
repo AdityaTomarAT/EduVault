@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "148454980403",
+    "project_id": "jecrc-6c0b9",
+    "storage_bucket": "jecrc-6c0b9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148454980403:android:0d0619e738512beb74dc46",
+        "android_client_info": {
+          "package_name": "com.example.jecrc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7eWsOfTeuRFlVw3bncBLr3a2VD7HsbGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
