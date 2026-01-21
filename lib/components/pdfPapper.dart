@@ -3,7 +3,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_pdfview/flutter_pdfview.dart';
 import 'package:get/get.dart';
-import 'package:get/get_connect/http/src/utils/utils.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'dart:io';
 import 'package:http/http.dart' as http;
@@ -25,27 +24,46 @@ class PdfViewerPage extends StatefulWidget {
 }
 
 class _PdfViewerPageState extends State<PdfViewerPage> {
-  late File Pfile;
+  File? Pfile;
   bool isLoading = false;
+  String? errorMessage;
+  
   Future<void> loadNetwork() async {
-    setState(() {
-      isLoading = true;
-    });
-    final response = await http.get(Uri.parse(
-        "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"));
-    final bytes = response.bodyBytes;
-    final filename = basename(widget.pdfUrl);
-    final dir = await getApplicationDocumentsDirectory();
-    var file = File('${dir.path}/$filename');
-    await file.writeAsBytes(bytes, flush: true);
-    setState(() {
-      Pfile = file;
-    });
-
-    print(Pfile);
-    setState(() {
-      isLoading = false;
-    });
+    try {
+      setState(() {
+        isLoading = true;
+        errorMessage = null;
+      });
+      
+      final response = await http.get(Uri.parse(widget.pdfUrl));
+      
+      if (response.statusCode != 200) {
+        throw Exception('Failed to load PDF: HTTP ${response.statusCode}');
+      }
+      
+      final bytes = response.bodyBytes;
+      final filename = basename(widget.pdfUrl);
+      final dir = await getApplicationDocumentsDirectory();
+      var file = File('${dir.path}/$filename');
+      await file.writeAsBytes(bytes, flush: true);
+      
+      if (mounted) {
+        setState(() {
+          Pfile = file;
+          isLoading = false;
+        });
+      }
+      
+      print('PDF loaded successfully: ${Pfile?.path}');
+    } catch (e) {
+      print('Error loading PDF: $e');
+      if (mounted) {
+        setState(() {
+          isLoading = false;
+          errorMessage = 'Failed to load PDF: ${e.toString()}';
+        });
+      }
+    }
   }
 
   BannerAd? _bannerAd;
@@ -108,13 +126,37 @@ class _PdfViewerPageState extends State<PdfViewerPage> {
       ),
       body: isLoading
           ? Center(child: CircularProgressIndicator())
-          : Container(
-              child: Center(
-                child: PDFView(
-                  filePath: Pfile.path,
-                ),
-              ),
-            ),
+          : errorMessage != null
+              ? Center(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(Icons.error_outline, size: 64, color: Colors.red),
+                      SizedBox(height: 16),
+                      Text(
+                        errorMessage!,
+                        style: TextStyle(color: Colors.red),
+                        textAlign: TextAlign.center,
+                      ),
+                      SizedBox(height: 16),
+                      ElevatedButton(
+                        onPressed: loadNetwork,
+                        child: Text('Retry'),
+                      ),
+                    ],
+                  ),
+                )
+              : Pfile != null
+                  ? Container(
+                      child: Center(
+                        child: PDFView(
+                          filePath: Pfile!.path,
+                        ),
+                      ),
+                    )
+                  : Center(
+                      child: Text('No PDF file available'),
+                    ),
     );
   }
 }

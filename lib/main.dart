@@ -41,7 +41,7 @@ class _MyAppState extends State<MyApp> {
       theme: _isDarkMode
           ? ThemeData.dark(useMaterial3: true)
           : ThemeData.light(useMaterial3: true),
-      home: Login()
+      home: SplashScreen()
     );
   }
 }

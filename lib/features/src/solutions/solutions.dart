@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:jecrc/components/appBar.dart';
 import 'package:jecrc/components/widgets.dart';
-import 'package:razorpay_flutter/razorpay_flutter.dart';
+// import 'package:razorpay_flutter/razorpay_flutter.dart';
 
 class Solutions extends StatefulWidget {
   const Solutions({super.key});
@@ -11,19 +11,19 @@ class Solutions extends StatefulWidget {
 }
 
 class _SolutionsState extends State<Solutions> {
-  var _razorpay = Razorpay();
+  // var _razorpay = Razorpay();
 
-  void _handlePaymentSuccess(PaymentSuccessResponse response) {
-    // Do something when payment succeeds
-  }
+  // void _handlePaymentSuccess(PaymentSuccessResponse response) {
+  //   // Do something when payment succeeds
+  // }
 
-  void _handlePaymentError(PaymentFailureResponse response) {
-    // Do something when payment fails
-  }
+  // void _handlePaymentError(PaymentFailureResponse response) {
+  //   // Do something when payment fails
+  // }
 
-  void _handleExternalWallet(ExternalWalletResponse response) {
-    // Do something when an  external wallet is selected
-  }
+  // void _handleExternalWallet(ExternalWalletResponse response) {
+  //   // Do something when an  external wallet is selected
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -46,7 +46,7 @@ class _SolutionsState extends State<Solutions> {
             // crossAxisAlignment: CrossAxisAlignment.spaceEvenly,
             // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: List.generate(
-              3,
+              1,
               (index) {
                 return solutionWidget(
                   context,
@@ -66,7 +66,7 @@ class _SolutionsState extends State<Solutions> {
                         'email': "test@gmail.com"
                       }
                     };
-                    _razorpay.open(options);
+                    // _razorpay.open(options);
                   },
                 );
               },

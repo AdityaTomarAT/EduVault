@@ -1,10 +1,17 @@
 allprojects {
+    // Kotlin version used by legacy Gradle scripts; keep this in sync with the KGP version in settings.gradle.
+    ext.kotlin_version = '2.2.21'
     repositories {
         google()
         mavenCentral()
     }
+    //  dependencies {
+    //     classpath "com.android.tools.build:gradle:8.6.0"
+    //     classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    // }
 }
 
+// Configure shared build directory for all modules.
 rootProject.buildDir = "../build"
 subprojects {
     project.buildDir = "${rootProject.buildDir}/${project.name}"
@@ -16,4 +23,7 @@ subprojects {
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
 }
-apply plugin: 'com.google.gms.google-services'
+// plugins {
+//     id "com.android.application" version "8.6.0" apply false
+//     id "com.android.library"     version "8.6.0" apply false
+// }
